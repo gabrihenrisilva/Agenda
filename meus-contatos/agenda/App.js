@@ -7,13 +7,13 @@ const styles = StyleSheet.create({
     paddingTop: 22,
   },
   sectionHeader: {
-    paddingTop: 50,
-    paddingLeft: 10,
+    paddingTop: 10,
+    paddingLeft: 20,
     paddingRight: 10,
-    paddingBottom: 2,
-    fontSize: 14,
+    paddingBottom: 10,
+    fontSize: 18,
     fontWeight: 'bold',
-    backgroundColor: 'rgba(247,247,247,1.0)',
+    backgroundColor: 'rgba(200,230,200,1.0)',
   },
   item: {
     padding: 10,
@@ -27,7 +27,13 @@ const SectionListBasics = () => {
     <View style={styles.container}>
       <SectionList
         sections={[
-          {title: 'A', data: ['Alan', 'Alessandro', 'Amandinha']},
+          {title: 'A', 
+          data: [
+            'Alan', 
+            'Alessandro', 
+            'Amandinha'
+          ]
+          },
           {
             title: 'B',
             data: [
